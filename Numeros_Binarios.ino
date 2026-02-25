@@ -18,15 +18,15 @@ void loop() {
 
     // AZUL (1)
     if (numero & 1)
-      digitalWrite(LED5, HIGH);
+      digitalWrite(LED1, HIGH);
     else
-      digitalWrite(LED5, LOW);
+      digitalWrite(LED1, LOW);
 
     // NARANJA (2)
     if (numero & 2)
-      digitalWrite(LED4, HIGH);
+      digitalWrite(LED2, HIGH);
     else
-      digitalWrite(LED4, LOW);
+      digitalWrite(LED2, LOW);
 
     // VERDE (4)
     if (numero & 4)
@@ -36,15 +36,15 @@ void loop() {
 
     // AMARILLO (8)
     if (numero & 8)
-      digitalWrite(LED2, HIGH);
+      digitalWrite(LED4, HIGH);
     else
-      digitalWrite(LED2, LOW);
+      digitalWrite(LED4, LOW);
 
     // ROJO (16)
     if (numero & 16)
-      digitalWrite(LED1, HIGH);
+      digitalWrite(LED5, HIGH);
     else
-      digitalWrite(LED1, LOW);
+      digitalWrite(LED5, LOW);
 
     delay(1000);
   }
